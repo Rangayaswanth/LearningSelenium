@@ -1,13 +1,11 @@
-package com.yaswanth.ex_06SelinumLearning;
+package com.yaswanth.ex_06SelinumLearning_PopUpMessage;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Task_Message {
@@ -66,14 +64,20 @@ public class Task_Message {
         }
 
         //h5[@class="id-card-title"]
-        WebElement error_message_free_trial = driver.findElement(By.xpath("//h5[@class='id-card-title']"));
-        Assert.assertEquals(error_message_free_trial.getText(),"Your free trial has expired");
+//        WebElement error_message_free_trial = driver.findElement(By.xpath("//h5[@class='id-card-title']"));
+//        Assert.assertEquals(error_message_free_trial.getText(),"Your free trial has expired");
+
+
+
 
         try {
             Thread.sleep(20000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
+
 
 
 

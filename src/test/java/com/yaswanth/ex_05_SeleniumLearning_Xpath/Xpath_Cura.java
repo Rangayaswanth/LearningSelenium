@@ -1,4 +1,4 @@
-package com.yaswanth.ex_05_SeleniumLearning;
+package com.yaswanth.ex_05_SeleniumLearning_Xpath;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;

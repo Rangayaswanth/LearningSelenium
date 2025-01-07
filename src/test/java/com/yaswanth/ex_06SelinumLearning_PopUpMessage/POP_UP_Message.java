@@ -1,4 +1,4 @@
-package com.yaswanth.ex_06SelinumLearning;
+package com.yaswanth.ex_06SelinumLearning_PopUpMessage;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
